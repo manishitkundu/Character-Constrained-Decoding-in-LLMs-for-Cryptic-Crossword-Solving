@@ -1,2 +1,4 @@
 # Character-Constrained Decoding in LLMs for Cryptic Crossword Solving
 A GitHub repo for character-constrained decoding in LLMs applied to cryptic crossword solving. Includes a 161K+ clue dataset, evaluation of LLMs’ failure to follow answer length constraints, and a character-level decoding strategy that boosts few-shot accuracy 3× without additional fine-tuning.
+
+In the code/ folder, you'll find scripts for preprocessing the dataset, evaluating LLMs, and implementing the character-constrained decoding strategy. Key files include train_test_split.py for preparing the 161K+ cryptic crossword clue dataset. The python notebooks are written in Python 3.8+ and rely on libraries like transformers and torch. In the results/ folder, we report results for the zero-shot case, the 4-shot case and the constrained decoding case, demonstrating a 3x improvement.
